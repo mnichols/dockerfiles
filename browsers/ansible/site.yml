@@ -1,7 +1,8 @@
 ---
-- hosts: local
+- hosts: all
   sudo: yes
   roles:
     - common
     - nodejs
+    - chrome
     - firefox
